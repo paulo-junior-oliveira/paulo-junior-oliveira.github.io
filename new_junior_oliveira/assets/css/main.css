@@ -1578,6 +1578,11 @@
 		color: #888;
 	}
 
+	p{
+		font-family: 'Roboto', sans-serif;
+		font-size: 12px !important;
+	}
+
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
 		color: #666;
@@ -1696,10 +1701,6 @@
 
 /* Image */
 
-	.svg_align{
-		float: left;
-	}
-
 	.image {
 		display: inline-block;
 		border: 0;
@@ -1710,9 +1711,9 @@
 			width: 100%;
 		}
 
-		.image.avatar48 {
-			width: 48px;
-			height: 48px;
+		.image.avatar50 {
+			width: 50px;
+			height: 50px;
 			background: #f00;
 		}
 
@@ -1907,7 +1908,7 @@
 		color: #fff !important;
 		text-decoration: none;
 		padding: 0.75em 2.5em 0.75em 2.5em;
-		background-color: #8ebebc;
+		background-color: rgba(1,18,27,0.7);
 		border: 0;
 		cursor: pointer;
 		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
@@ -1925,7 +1926,8 @@
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #9ececc;
+			background-color: rgba(10,224,229,0.8);
+
 		}
 
 		input[type="button"]:active,
@@ -1933,7 +1935,7 @@
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background-color: #7eaeac;
+			background-color: rgba(10,224,229,1);
 		}
 
 /* Item */
@@ -1991,7 +1993,7 @@
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #222629 url("images/overlay.png");
+		background: #01121b url("images/overlay.png");
 		box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
 		color: #fff;
 		height: 100%;
@@ -2048,7 +2050,7 @@
 
 		#logo h1 {
 			position: relative;
-			color: #fff;
+			color: #0AE0E5;
 			font-weight: 600;
 			font-size: 1em;
 			line-height: 1em;
@@ -2104,11 +2106,11 @@
 			#nav ul li a.active {
 				background: rgba(0, 0, 0, 0.15);
 				box-shadow: inset 0 0 0.25em 0 rgba(0, 0, 0, 0.125);
-				color: #fff;
+				color: #0AE0E5;
 			}
 
 				#nav ul li a.active span:before {
-					color: #e27689;
+					color: #F3F3F3;
 				}
 
 /* Footer */
@@ -2186,8 +2188,8 @@
 			}
 
 			#main > section.one {
-				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				background-color: #F3F3F3;
+				background-image: url("../../images/home_photo.jpg");
 			}
 
 			#main > section.two {
@@ -2195,11 +2197,11 @@
 			}
 
 			#main > section.three {
-				background-color: #ecf1f1;
+				background-color: #FFF;
 			}
 
 			#main > section.four {
-				background-color: #e8edec;
+				background-color: #F9F9F9;
 			}
 
 /* Wide */
