@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="pt">
+    {% include head.html %}
+    <body id='index-page'>
+    	<div class='global-outer'>
+			<div class='global-inner'>
+        		{% include header.html %}
+	            <main id='main'>
+	                {{ content }}
+	            </main>
+        	</div>
+        </div>
+        {% include scripts.html %}
+    </body>
+</html>

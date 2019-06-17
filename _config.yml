@@ -1,0 +1,47 @@
+# Descrição do site
+title: Draw a Sketch
+description: Um blog sobre o Draw a Sketch para partilhar todos os trabalhos na àrea de design, fotografia, web e vídeo.
+baseurl: 
+url: "http://drawasketch.com/"
+email: junioroliveira@drawasketch.com
+twitter_username: drawasketch_
+github_username:  lorem_ipsum
+gplus_username:  lorem_ipsum
+disqus_username: lorem_ipsum
+
+# Autor
+username: Júnior Oliveira
+user_description: Designer gráfico, fotógrafo, web developer e produtor/editor de vídeo
+email: junioroliveira@drawasketch.com
+facebook: drawasketch
+twitter: drawasketch_
+instagram: drawasketch
+pinterest:  drawasketch
+
+# Descrição do Desenvolvimento
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Work
+    url: /
+  - title: Blog
+    url: /blog
+  - title: Sobre
+    url: /sobre
+  - title: Contactos
+    url: /contacts
+    
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
