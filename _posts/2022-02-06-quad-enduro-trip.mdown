@@ -2,7 +2,7 @@
 layout: default
 title: "Quad Enduro Trip"
 date: 2022-02-06
-image: /assets/img/work/detailing_studio_logo_thumbnail.png
+image: /assets/img/work/quad_enduro_trip_thumbnail.jpg
 category: portfolio
 show_category: Blog
 ---
