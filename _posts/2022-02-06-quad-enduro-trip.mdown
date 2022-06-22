@@ -2,7 +2,7 @@
 layout: default
 title: "Quad Enduro Trip"
 date: 2022-02-06
-image: /assets/img/work/quad_enduro_trip_thumbnail.jpg
+image: /assets/img/work/quad_enduro_trip_upd_thumbnail.jpg
 category: portfolio
 show_category: Blog
 ---
@@ -11,7 +11,7 @@ show_category: Blog
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
-                <div class="title-image"><img src="{{ "/assets/img/work/quad_enduro_trip.jpg" | prepend: site.baseurl }}" alt="Quad Enduro Trip"></div>
+                <div class="title-image"><img src="{{ "/assets/img/work/quad_enduro_trip_upd.jpg" | prepend: site.baseurl }}" alt="Quad Enduro Trip"></div>
             </div>
         </div>
         <div class="row">
