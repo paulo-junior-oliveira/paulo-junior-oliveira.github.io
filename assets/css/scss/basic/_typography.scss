@@ -1,0 +1,110 @@
+//
+// Typography //
+//
+body {
+	color: $color-primary;
+	font-family: $font-family-primary;
+	font-size: 1rem;
+	font-weight: 400;
+	letter-spacing: 0;
+	@include breakpoint-less(md) {
+		font-size: 0.938rem;
+	}
+}
+
+h1,h2,h3,h4,h5,h6 {
+	line-height: 1.4;
+	letter-spacing: -0.3px;
+	color: $color-dark;
+	font-family: $font-family-secondary;
+	font-weight: $font-weight-semi-bold;
+}
+
+
+p {
+	margin: 0;
+	font-size: 1em; // 15px
+	line-height: 1.86; // 28px
+}
+.font-small {
+	font-size: 0.9em;
+	line-height: 1.7;
+	@include breakpoint-less(md) {
+		font-size: 0.9em;
+		line-height: 1.7;
+	}
+}
+.font-large {
+	font-size: 1.063em;
+	line-height: 1.6;
+	@include breakpoint-less(md) {
+		font-size: 1.063em;
+	}
+}
+.font-extra-small {
+	font-size: 0.8125em;
+	line-height: 1.6;
+}
+
+.uppercase {
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+@include breakpoint-above(lg) {
+	.font-lg-large {
+		font-size: 1.063em; // 17px
+		line-height: 1.75; // 30px
+	}
+	.font-lg-small {
+		font-size: 0.875em; // 14px
+		line-height: 1.72; // 24px
+	}
+	.font-lg-extra-small {
+		font-size: 0.8125em; // 13px
+		line-height: 1.6; // 20px
+	}
+}
+@include breakpoint-less(md) {
+	p {
+		font-size: 1em; // 14px
+		line-height: 1.75; // 24px
+	}
+	.font-extra-small {
+		font-size: 0.75em; // 10px
+	}
+	.font-small {
+		font-size: 0.85em; // 12px
+	}
+	.font-large {
+		font-size: 1.15em; // 16px
+	}
+}
+
+//
+// Font Icons //
+//
+i {
+	display: inline-block;
+}
+.icon-5xl {
+	i { font-size: 2.8em; }
+}
+.icon-4xl {
+	i { font-size: 2.4em; }
+}
+.icon-3xl {
+	i { font-size: 2.13em; }
+}
+.icon-2xl {
+	i { font-size: 1.86em; }
+}
+.icon-xl {
+	i { font-size: 1.6em; }
+}
+.icon-lg {
+	i { font-size: 1.33em; }
+}
+.icon-sm {
+	i { font-size: 0.0938em; }
+}
